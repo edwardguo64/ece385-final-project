@@ -1,6 +1,8 @@
 # Tetris on the DE-10 FPGA
 
-Final project for ECE 385: Digital Systems Laboratory by Edward Guo and Minho Lee
+Final project for ECE 385: Digital Systems Laboratory by Edward Guo and Minho Lee.
+
+Please cite this github repository if you decide to use this as reference for UIUC's ECE 385 final project. Not doing so would violate academic integrity.
 
 ## Table of Contents
 
@@ -292,7 +294,7 @@ This function is the main function of the program which has a portion of the cod
 
 ## Design Resources and Statistics
 
-| Resource | Stastics |
+| Resource | Statistics |
 | --- | ------ |
 | LUT | 45,058 |
 | DSP | 0 |
