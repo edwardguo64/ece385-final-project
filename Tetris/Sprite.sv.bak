@@ -1,0 +1,13 @@
+module Sprite(		
+					 output logic [4:0][28:0][3:0] SCORE_Letters,
+					 output logic [4:0][4:0][3:0] zero,
+					 output logic [4:0][4:0][3:0] one,
+					 output logic [4:0][4:0][3:0] two,
+					 output logic [4:0][4:0][3:0] three,
+					 output logic [4:0][4:0][3:0] four,
+					 output logic [4:0][4:0][3:0] five,
+					 output logic [4:0][4:0][3:0] six,
+					 output logic [4:0][4:0][3:0] seven,
+					 output logic [4:0][4:0][3:0] eight,
+					 output logic [4:0][4:0][3:0] nine
+					 );

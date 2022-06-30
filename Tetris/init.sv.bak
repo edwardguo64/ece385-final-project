@@ -1,0 +1,57 @@
+module init(
+    input logic CLK,
+    input logic RESET,
+    input logic START,
+    input logic DONE,
+    output logic [2:0] piece_type,
+    output logic [1:0] orientation
+);
+
+    enum logic [1:0] {Wait, Generate, Done} State, Next_state;
+    logic [2:0] piece, Next_piece;
+    
+    always_ff @ (posedge RESET or posedge CLK)
+    begin
+        if (RESET)
+        begin
+            State <= Wait;
+            piece <= 3'o7;  // 3'o7 means 3 bit octal 7
+        end
+        else
+        begin
+            State <= Next_state;
+            piece = Next_piece;
+        end
+    end
+    
+    always_comb
+    begin
+        Next_piece = piece;
+        Next_state = State;
+        
+        unique case (State)
+            Wait :
+                if (START)
+                    Next_state = Generate;
+            Generate :
+                Next_state = Done;
+            Done :
+                if (!START)
+                    Next_state = Wait;
+            default : ;
+        endcase
+        
+        case (State)
+            Wait : ;
+            Generate :
+                Next_piece = $urandom(6, 0);
+            Done :
+                Done = 1'b1;
+            default : ;
+        endcase
+    end
+    
+    assign piece_type = piece;
+    assign orientation = 2'b00;
+
+endmodule

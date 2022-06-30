@@ -1,0 +1,53 @@
+module score_board(
+				input logic [9:0] DrawX,
+				input logic [9:0] DrawY,
+				output logic scr_board_on
+				);
+	 logic [4:0][28:0][3:0] SCORE_Letters;
+	 logic [4:0][4:0][3:0] zero;
+	 logic [4:0][4:0][3:0] one;
+	 logic [4:0][4:0][3:0] two;
+	 logic [4:0][4:0][3:0] three;
+	 logic [4:0][4:0][3:0] four;
+	 logic [4:0][4:0][3:0] five;
+	 logic [4:0][4:0][3:0] six;
+	 logic [4:0][4:0][3:0] seven;
+	 logic [4:0][4:0][3:0] eight;
+	 logic [4:0][4:0][3:0] nine;	 	 
+	 
+	//ScoreBoard
+	 logic scoreboard;
+	 logic [9:0] scoreboard_x = 475;
+	 logic [9:0] scoreboard_size_x = 160;
+	 logic [9:0] scoreboard_y = 50;
+	 logic [9:0] scoreboard_size_y = 50;
+	 // SCORE Letters:
+	 logic [9:0] SCORE_Letters_x = 475;
+	 logic [9:0] SCORE_Letters_size_x = 116;
+	 logic [9:0] SCORE_Letters_y = 50;
+	 logic [9:0] SCORE_Letters_size_y = 20;
+	 // Score Numbers
+	 // Thousand_digit: Bottom half, in quarters
+	 logic [9:0] thousand_x = 492;
+	 logic [9:0] thousand_size_x = 20;
+	 logic [9:0] thousand_y = 75;
+	 logic [9:0] thousand_size_y = 20;
+	 // Hundred_digit
+	 logic [9:0] hundred_x = 516;
+	 logic [9:0] hundred_size_x = 20;
+	 logic [9:0] hundred_y = 75;
+	 logic [9:0] hundred_size_y = 20;
+	 // Ten_digit
+	 logic [9:0] ten_x = 540;
+	 logic [9:0] ten_size_x = 20;
+	 logic [9:0] ten_y = 75;
+	 logic [9:0] ten_size_y = 20;
+	 // Single_digit
+	 logic [9:0] single_x = 564;
+	 logic [9:0] single_size_x = 20;
+	 logic [9:0] single_y = 75;
+	 logic [9:0] single_size_y = 20;	
+always_comb
+begin
+
+end

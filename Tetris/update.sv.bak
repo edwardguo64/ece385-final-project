@@ -1,0 +1,85 @@
+module update(
+    input logic CLK,
+    input logic RESET,
+    
+    input logic START,
+    output logic DONE,
+    
+    input logic [31:0] board[20],
+    
+    input logic [3:0] pos_x,
+    input logic [4:0] pos_y,
+    
+    input logic [2:0] piece_type,
+    input logic [1:0] orientation,
+    
+    output logic [31:0] new_board[20]
+);
+
+    enum logic [1:0] {Wait, Init, Update, Done} State, Next_state;
+    logic [31:0] temp_board[20];
+    logic [3:0] cell1_x, cell2_x, cell3_x;
+    logic [4:0] cell1_y, cell2_y, cell3_y;
+    
+    current_blocks currb(.*);
+    
+    always_ff @ (posedge CLK or posedge RESET)
+    begin
+        if (RESET)
+        begin
+            State <= Wait;
+            
+            for (int i = 0; i < 20; i++)
+            begin
+                temp_board[i] <= 32'b0;
+            end
+        end
+        else
+        begin
+            State <= Next_state;
+        end
+    end
+    
+    always_comb
+    begin
+        Next_state = State;
+        
+        DONE = 1'b0;
+        
+        unique case (State)
+            Wait :
+                if (START)
+                    Next_state = Init;
+            Init :
+                Next_state = Update;
+            Update :
+                Next_state = Done;
+            Done :
+                if (!START)
+                    Next_state = Wait;
+            default : ;
+        endcase
+        
+        case (State)
+            Wait : ;
+            Init :
+            begin
+                for (int i = 0; i < 20 ; i++)
+                begin
+                    temp_board[i] = board[i];
+                end
+            end
+            Update :
+            begin
+                temp_board[pos_x][pos_y] = 1'b1;
+                temp_board[cell1_x][cell1_y] = 1'b1;
+                temp_board[cell2_x][cell2_y] = 1'b1;
+                temp_board[cell3_x][cell3_y] = 1'b1;
+            end
+            Done :
+                DONE = 1'b1;
+            default : ;
+        endcase
+    end
+
+endmodule

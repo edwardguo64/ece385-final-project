@@ -1,0 +1,81 @@
+23:40:12 **** Build of configuration Nios II for project usb_kb ****
+make all 
+Info: Building ../usb_kb_bsp/
+C:/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../usb_kb_bsp/
+[BSP build complete]
+Info: Compiling main.c to obj/default/main.o
+nios2-elf-gcc -xc -MP -MMD -c -I../usb_kb_bsp//HAL/inc -I../usb_kb_bsp/ -I../usb_kb_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/main.o main.c
+In file included from ../usb_kb_bsp//drivers/inc/altera_avalon_spi_regs.h:34:0,
+                 from main.c:9:
+main.c: In function 'setLED':
+main.c:62:30: error: 'LEDS_PIO_BASE' undeclared (first use in this function)
+  IOWR_ALTERA_AVALON_PIO_DATA(LEDS_PIO_BASE,
+                              ^
+../usb_kb_bsp//HAL/inc/io.h:70:23: note: in definition of macro '__IO_CALC_ADDRESS_NATIVE'
+   ((void *)(((alt_u8*)BASE) + ((REGNUM) * (SYSTEM_BUS_WIDTH/8))))
+                       ^
+../usb_kb_bsp//drivers/inc/altera_avalon_pio_regs.h:38:55: note: in expansion of macro 'IOWR'
+ #define IOWR_ALTERA_AVALON_PIO_DATA(base, data)       IOWR(base, 0, data)
+                                                       ^
+main.c:62:2: note: in expansion of macro 'IOWR_ALTERA_AVALON_PIO_DATA'
+  IOWR_ALTERA_AVALON_PIO_DATA(LEDS_PIO_BASE,
+  ^
+main.c:62:30: note: each undeclared identifier is reported only once for each function it appears in
+  IOWR_ALTERA_AVALON_PIO_DATA(LEDS_PIO_BASE,
+                              ^
+../usb_kb_bsp//HAL/inc/io.h:70:23: note: in definition of macro '__IO_CALC_ADDRESS_NATIVE'
+   ((void *)(((alt_u8*)BASE) + ((REGNUM) * (SYSTEM_BUS_WIDTH/8))))
+                       ^
+../usb_kb_bsp//drivers/inc/altera_avalon_pio_regs.h:38:55: note: in expansion of macro 'IOWR'
+ #define IOWR_ALTERA_AVALON_PIO_DATA(base, data)       IOWR(base, 0, data)
+                                                       ^
+main.c:62:2: note: in expansion of macro 'IOWR_ALTERA_AVALON_PIO_DATA'
+  IOWR_ALTERA_AVALON_PIO_DATA(LEDS_PIO_BASE,
+  ^
+main.c: In function 'clearLED':
+main.c:67:30: error: 'LEDS_PIO_BASE' undeclared (first use in this function)
+  IOWR_ALTERA_AVALON_PIO_DATA(LEDS_PIO_BASE,
+                              ^
+../usb_kb_bsp//HAL/inc/io.h:70:23: note: in definition of macro '__IO_CALC_ADDRESS_NATIVE'
+   ((void *)(((alt_u8*)BASE) + ((REGNUM) * (SYSTEM_BUS_WIDTH/8))))
+                       ^
+../usb_kb_bsp//drivers/inc/altera_avalon_pio_regs.h:38:55: note: in expansion of macro 'IOWR'
+ #define IOWR_ALTERA_AVALON_PIO_DATA(base, data)       IOWR(base, 0, data)
+                                                       ^
+main.c:67:2: note: in expansion of macro 'IOWR_ALTERA_AVALON_PIO_DATA'
+  IOWR_ALTERA_AVALON_PIO_DATA(LEDS_PIO_BASE,
+  ^
+main.c: In function 'printSignedHex0':
+main.c:75:45: error: 'HEX_DIGITS_PIO_BASE' undeclared (first use in this function)
+  WORD pio_val = IORD_ALTERA_AVALON_PIO_DATA(HEX_DIGITS_PIO_BASE);
+                                             ^
+../usb_kb_bsp//HAL/inc/io.h:70:23: note: in definition of macro '__IO_CALC_ADDRESS_NATIVE'
+   ((void *)(((alt_u8*)BASE) + ((REGNUM) * (SYSTEM_BUS_WIDTH/8))))
+                       ^
+../usb_kb_bsp//drivers/inc/altera_avalon_pio_regs.h:37:55: note: in expansion of macro 'IORD'
+ #define IORD_ALTERA_AVALON_PIO_DATA(base)             IORD(base, 0) 
+                                                       ^
+main.c:75:17: note: in expansion of macro 'IORD_ALTERA_AVALON_PIO_DATA'
+  WORD pio_val = IORD_ALTERA_AVALON_PIO_DATA(HEX_DIGITS_PIO_BASE);
+                 ^
+main.c: In function 'printSignedHex1':
+main.c:102:46: error: 'HEX_DIGITS_PIO_BASE' undeclared (first use in this function)
+  DWORD pio_val = IORD_ALTERA_AVALON_PIO_DATA(HEX_DIGITS_PIO_BASE);
+                                              ^
+../usb_kb_bsp//HAL/inc/io.h:70:23: note: in definition of macro '__IO_CALC_ADDRESS_NATIVE'
+   ((void *)(((alt_u8*)BASE) + ((REGNUM) * (SYSTEM_BUS_WIDTH/8))))
+                       ^
+../usb_kb_bsp//drivers/inc/altera_avalon_pio_regs.h:37:55: note: in expansion of macro 'IORD'
+ #define IORD_ALTERA_AVALON_PIO_DATA(base)             IORD(base, 0) 
+                                                       ^
+main.c:102:18: note: in expansion of macro 'IORD_ALTERA_AVALON_PIO_DATA'
+  DWORD pio_val = IORD_ALTERA_AVALON_PIO_DATA(HEX_DIGITS_PIO_BASE);
+                  ^
+main.c: In function 'main':
+main.c:140:7: warning: unused variable 'keycode' [-Wunused-variable]
+  WORD keycode;
+       ^
+make: *** [obj/default/main.o] Error 1
+
+23:40:19 Build Finished (took 6s.764ms)
+

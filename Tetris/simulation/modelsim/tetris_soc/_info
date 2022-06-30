@@ -1,0 +1,1645 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/meno1/Desktop/Tetris_ver1/Tetris/simulation/modelsim
+valtera_avalon_sc_fifo
+Z0 !s110 1605671557
+!i10b 1
+!s100 4mK@em][G=j]om3zJIhOc0
+IKAch^RO;6mOm<XfSTJa9J2
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dC:/ECE_385/Tetris/simulation/modelsim
+Z3 w1605491859
+8C:/ECE_385/Tetris/tetris_soc/synthesis/submodules/altera_avalon_sc_fifo.v
+FC:/ECE_385/Tetris/tetris_soc/synthesis/submodules/altera_avalon_sc_fifo.v
+Z4 L0 21
+Z5 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z6 !s108 1605671557.000000
+!s107 C:/ECE_385/Tetris/tetris_soc/synthesis/submodules/altera_avalon_sc_fifo.v|
+!s90 -reportprogress|300|-vlog01compat|-work|tetris_soc|+incdir+C:/ECE_385/Tetris/tetris_soc/synthesis/submodules|C:/ECE_385/Tetris/tetris_soc/synthesis/submodules/altera_avalon_sc_fifo.v|
+!i113 1
+Z7 o-vlog01compat -work tetris_soc
+Z8 !s92 -vlog01compat -work tetris_soc +incdir+C:/ECE_385/Tetris/tetris_soc/synthesis/submodules
+Z9 tCvgOpt 0
+valtera_avalon_st_clock_crosser
+Z10 !s110 1605671569
+!i10b 1
+!s100 YbU`iK^TYJ_9Hz`CZekjQ3
+IMeiO63_Y7D@NgKghNbF?H2
+R1
+R2
+R3
+8C:/ECE_385/Tetris/tetris_soc/synthesis/submodules/altera_avalon_st_clock_crosser.v
+FC:/ECE_385/Tetris/tetris_soc/synthesis/submodules/altera_avalon_st_clock_crosser.v
+L0 22
+R5
+r1
+!s85 0
+31
+Z11 !s108 1605671569.000000
+!s107 C:/ECE_385/Tetris/tetris_soc/synthesis/submodules/altera_avalon_st_clock_crosser.v|
+!s90 -reportprogress|300|-vlog01compat|-work|tetris_soc|+incdir+C:/ECE_385/Tetris/tetris_soc/synthesis/submodules|C:/ECE_385/Tetris/tetris_soc/synthesis/submodules/altera_avalon_st_clock_crosser.v|
+!i113 1
+R7
+R8
+R9
+valtera_avalon_st_handshake_clock_crosser
+Z12 !s110 1605671568
+!i10b 1
+!s100 3f<J9K;e[9FU@JKn0^PK?0
+I=UBDPIF5WgO7HOz_JDMdN2
+R1
+R2
+R3
+8C:/ECE_385/Tetris/tetris_soc/synthesis/submodules/altera_avalon_st_handshake_clock_crosser.v
+FC:/ECE_385/Tetris/tetris_soc/synthesis/submodules/altera_avalon_st_handshake_clock_crosser.v
+Z13 L0 24
+R5
+r1
+!s85 0
+31
+Z14 !s108 1605671568.000000
+!s107 C:/ECE_385/Tetris/tetris_soc/synthesis/submodules/altera_avalon_st_handshake_clock_crosser.v|
+!s90 -reportprogress|300|-vlog01compat|-work|tetris_soc|+incdir+C:/ECE_385/Tetris/tetris_soc/synthesis/submodules|C:/ECE_385/Tetris/tetris_soc/synthesis/submodules/altera_avalon_st_handshake_clock_crosser.v|
+!i113 1
+R7
+R8
+R9
+valtera_merlin_arb_adder
+Z15 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z16 !s110 1605671571
+!i10b 1
+!s100 1Jn[a;@5nZmTN?DFKQNzj2
+I23AzN]f<4jiIBj>RBgkVe0
+R1
+Z17 !s105 altera_merlin_arbitrator_sv_unit
+S1
+R2
+R3
+Z18 8C:/ECE_385/Tetris/tetris_soc/synthesis/submodules/altera_merlin_arbitrator.sv
+Z19 FC:/ECE_385/Tetris/tetris_soc/synthesis/submodules/altera_merlin_arbitrator.sv
+L0 228
+R5
+r1
+!s85 0
+31
+Z20 !s108 1605671571.000000
+Z21 !s107 C:/ECE_385/Tetris/tetris_soc/synthesis/submodules/altera_merlin_arbitrator.sv|
+Z22 !s90 -reportprogress|300|-sv|-work|tetris_soc|+incdir+C:/ECE_385/Tetris/tetris_soc/synthesis/submodules|C:/ECE_385/Tetris/tetris_soc/synthesis/submodules/altera_merlin_arbitrator.sv|
+!i113 1
+Z23 o-sv -work tetris_soc
+Z24 !s92 -sv -work tetris_soc +incdir+C:/ECE_385/Tetris/tetris_soc/synthesis/submodules
+R9
+valtera_merlin_arbitrator
+R15
+R16
+!i10b 1
+!s100 NQTehjm2fNQROUMUzShGa1
+IC2i[5NAM82`GY^o>^Ua^X3
+R1
+R17
+S1
+R2
+R3
+R18
+R19
+L0 103
+R5
+r1
+!s85 0
+31
+R20
+R21
+R22
+!i113 1
+R23
+R24
+R9
+valtera_merlin_burst_adapter
+R15
+!s110 1605671576
+!i10b 1
+!s100 OCc70X^k:B?GW6i71n`L_3
+I?BHgJaLiiALXBEmL_Q;2e0
+R1
+!s105 altera_merlin_burst_adapter_sv_unit
+S1
+R2
+R3
+8C:/ECE_385/Tetris/tetris_soc/synthesis/submodules/altera_merlin_burst_adapter.sv
+FC:/ECE_385/Tetris/tetris_soc/synthesis/submodules/altera_merlin_burst_adapter.sv
+R4
+R5
+r1
+!s85 0
+31
+!s108 1605671576.000000
+!s107 C:/ECE_385/Tetris/tetris_soc/synthesis/submodules/altera_merlin_burst_adapter.sv|
+!s90 -reportprogress|300|-sv|-work|tetris_soc|+incdir+C:/ECE_385/Tetris/tetris_soc/synthesis/submodules|C:/ECE_385/Tetris/tetris_soc/synthesis/submodules/altera_merlin_burst_adapter.sv|
+!i113 1
+R23
+R24
+R9
+valtera_merlin_burst_uncompressor
+R15
+Z25 !s110 1605671570
+!i10b 1
+!s100 f1?Rb<=9U?R9LJoHl;7>T3
+IkR1aghEb9BB6I7bQ`8CR?2
+R1
+!s105 altera_merlin_burst_uncompressor_sv_unit
+S1
+R2
+R3
+8C:/ECE_385/Tetris/tetris_soc/synthesis/submodules/altera_merlin_burst_uncompressor.sv
+FC:/ECE_385/Tetris/tetris_soc/synthesis/submodules/altera_merlin_burst_uncompressor.sv
+L0 40
+R5
+r1
+!s85 0
+31
+Z26 !s108 1605671570.000000
+!s107 C:/ECE_385/Tetris/tetris_soc/synthesis/submodules/altera_merlin_burst_uncompressor.sv|
+!s90 -reportprogress|300|-sv|-work|tetris_soc|+incdir+C:/ECE_385/Tetris/tetris_soc/synthesis/submodules|C:/ECE_385/Tetris/tetris_soc/synthesis/submodules/altera_merlin_burst_uncompressor.sv|
+!i113 1
+R23
+R24
+R9
+valtera_merlin_width_adapter
+R15
+R25
+!i10b 1
+!s100 QzdA5DP6CReOTH<9QzODa3
+IMnX20W[9n7KmLjf86Jz>[3
+R1
+!s105 altera_merlin_width_adapter_sv_unit
+S1
+R2
+R3
+8C:/ECE_385/Tetris/tetris_soc/synthesis/submodules/altera_merlin_width_adapter.sv
+FC:/ECE_385/Tetris/tetris_soc/synthesis/submodules/altera_merlin_width_adapter.sv
+L0 25
+R5
+r1
+!s85 0
+31
+R26
+!s107 C:/ECE_385/Tetris/tetris_soc/synthesis/submodules/altera_merlin_width_adapter.sv|
+!s90 -reportprogress|300|-sv|-work|tetris_soc|+incdir+C:/ECE_385/Tetris/tetris_soc/synthesis/submodules|C:/ECE_385/Tetris/tetris_soc/synthesis/submodules/altera_merlin_width_adapter.sv|
+!i113 1
+R23
+R24
+R9
+valtera_reset_controller
+Z27 !s110 1605671554
+!i10b 1
+!s100 z[H_hRO9gO=:^2E3_jWH03
+I;:1JlGMAEVb_]N_hGN[aY0
+R1
+R2
+Z28 w1605491856
+8C:/ECE_385/Tetris/tetris_soc/synthesis/submodules/altera_reset_controller.v
+FC:/ECE_385/Tetris/tetris_soc/synthesis/submodules/altera_reset_controller.v
+L0 42
+R5
+r1
+!s85 0
+31
+!s108 1605671554.000000
+!s107 C:/ECE_385/Tetris/tetris_soc/synthesis/submodules/altera_reset_controller.v|
+!s90 -reportprogress|300|-vlog01compat|-work|tetris_soc|+incdir+C:/ECE_385/Tetris/tetris_soc/synthesis/submodules|C:/ECE_385/Tetris/tetris_soc/synthesis/submodules/altera_reset_controller.v|
+!i113 1
+R7
+R8
+R9
+valtera_reset_synchronizer
+Z29 !s110 1605671555
+!i10b 1
+!s100 oWLYmSO[EOX[G0PgQhZ2=0
+I1L0lFKMf70jXz@mz1j3fa2
+R1
+R2
+R28
+8C:/ECE_385/Tetris/tetris_soc/synthesis/submodules/altera_reset_synchronizer.v
+FC:/ECE_385/Tetris/tetris_soc/synthesis/submodules/altera_reset_synchronizer.v
+R13
+R5
+r1
+!s85 0
+31
+Z30 !s108 1605671555.000000
+!s107 C:/ECE_385/Tetris/tetris_soc/synthesis/submodules/altera_reset_synchronizer.v|
+!s90 -reportprogress|300|-vlog01compat|-work|tetris_soc|+incdir+C:/ECE_385/Tetris/tetris_soc/synthesis/submodules|C:/ECE_385/Tetris/tetris_soc/synthesis/submodules/altera_reset_synchronizer.v|
+!i113 1
+R7
+R8
+R9
+valtera_std_synchronizer_nocut
+R10
+!i10b 1
+!s100 b8zV2<79GgkNg0GC<P[GJ2
+Iz5`E4Eflj?`H9XVEQ;PEZ1
+R1
+R2
+R3
+8C:/ECE_385/Tetris/tetris_soc/synthesis/submodules/altera_std_synchronizer_nocut.v
+FC:/ECE_385/Tetris/tetris_soc/synthesis/submodules/altera_std_synchronizer_nocut.v
+L0 44
+R5
+r1
+!s85 0
+31
+R11
+!s107 C:/ECE_385/Tetris/tetris_soc/synthesis/submodules/altera_std_synchronizer_nocut.v|
+!s90 -reportprogress|300|-vlog01compat|-work|tetris_soc|+incdir+C:/ECE_385/Tetris/tetris_soc/synthesis/submodules|C:/ECE_385/Tetris/tetris_soc/synthesis/submodules/altera_std_synchronizer_nocut.v|
+!i113 1
+R7
+R8
+R9
+vavalon_tetris_interface
+R15
+!s110 1606770665
+!i10b 1
+!s100 ];j>i<NolD3nHC@60^@gM3
+Ib3i179A:Ej2YGmOJP^WnS1
+R1
+!s105 avalon_tetris_interface_sv_unit
+S1
+R2
+w1606689973
+8C:/ECE_385/Tetris/tetris_soc/synthesis/submodules/avalon_tetris_interface.sv
+FC:/ECE_385/Tetris/tetris_soc/synthesis/submodules/avalon_tetris_interface.sv
+L0 1
+R5
+r1
+!s85 0
+31
+!s108 1606770665.000000
+!s107 C:/ECE_385/Tetris/tetris_soc/synthesis/submodules/avalon_tetris_interface.sv|
+!s90 -reportprogress|300|-sv|-work|tetris_soc|+incdir+C:/ECE_385/Tetris/tetris_soc/synthesis/submodules|C:/ECE_385/Tetris/tetris_soc/synthesis/submodules/avalon_tetris_interface.sv|
+!i113 1
+R23
+R24
+R9
+vtetris_soc
+R27
+!i10b 1
+!s100 Fg0243TSlFAz5ODVDXI1<2
+I7Q[^gKRQAUBKgEla=]nNT3
+R1
+R2
+Z31 w1605491829
+8C:/ECE_385/Tetris/tetris_soc/synthesis/tetris_soc.v
+FC:/ECE_385/Tetris/tetris_soc/synthesis/tetris_soc.v
+L0 6
+R5
+r1
+!s85 0
+31
+!s108 1605671553.000000
+!s107 C:/ECE_385/Tetris/tetris_soc/synthesis/tetris_soc.v|
+!s90 -reportprogress|300|-vlog01compat|-work|tetris_soc|+incdir+C:/ECE_385/Tetris/tetris_soc/synthesis|C:/ECE_385/Tetris/tetris_soc/synthesis/tetris_soc.v|
+!i113 1
+R7
+!s92 -vlog01compat -work tetris_soc +incdir+C:/ECE_385/Tetris/tetris_soc/synthesis
+R9
+vtetris_soc_irq_mapper
+R15
+Z32 !s110 1605671567
+!i10b 1
+!s100 e>H<Yk^gb=53zclMJ3O3V3
+IU<1mJ6m5ST_^G7gLi:;4c0
+R1
+!s105 tetris_soc_irq_mapper_sv_unit
+S1
+R2
+R28
+8C:/ECE_385/Tetris/tetris_soc/synthesis/submodules/tetris_soc_irq_mapper.sv
+FC:/ECE_385/Tetris/tetris_soc/synthesis/submodules/tetris_soc_irq_mapper.sv
+L0 31
+R5
+r1
+!s85 0
+31
+Z33 !s108 1605671566.000000
+!s107 C:/ECE_385/Tetris/tetris_soc/synthesis/submodules/tetris_soc_irq_mapper.sv|
+!s90 -reportprogress|300|-sv|-work|tetris_soc|+incdir+C:/ECE_385/Tetris/tetris_soc/synthesis/submodules|C:/ECE_385/Tetris/tetris_soc/synthesis/submodules/tetris_soc_irq_mapper.sv|
+!i113 1
+R23
+R24
+R9
+vtetris_soc_jtag_uart_0
+Z34 !s110 1605671566
+!i10b 1
+!s100 ?n`bE6zLS<3af286Ng:Pm1
+IoQQ>S5JMfn?24<83c[^mc2
+R1
+R2
+R31
+Z35 8C:/ECE_385/Tetris/tetris_soc/synthesis/submodules/tetris_soc_jtag_uart_0.v
+Z36 FC:/ECE_385/Tetris/tetris_soc/synthesis/submodules/tetris_soc_jtag_uart_0.v
+L0 331
+R5
+r1
+!s85 0
+31
+R33
+Z37 !s107 C:/ECE_385/Tetris/tetris_soc/synthesis/submodules/tetris_soc_jtag_uart_0.v|
+Z38 !s90 -reportprogress|300|-vlog01compat|-work|tetris_soc|+incdir+C:/ECE_385/Tetris/tetris_soc/synthesis/submodules|C:/ECE_385/Tetris/tetris_soc/synthesis/submodules/tetris_soc_jtag_uart_0.v|
+!i113 1
+R7
+R8
+R9
+vtetris_soc_jtag_uart_0_scfifo_r
+R34
+!i10b 1
+!s100 RakDKUOl`R5:5oeGG:<m60
+I=P1BCRcC:S^5LM@aOBJB22
+R1
+R2
+R31
+R35
+R36
+L0 243
+R5
+r1
+!s85 0
+31
+R33
+R37
+R38
+!i113 1
+R7
+R8
+R9
+vtetris_soc_jtag_uart_0_scfifo_w
+R34
+!i10b 1
+!s100 DB5:l8jPHk6?k;AC:jCcm1
+IRmXD@z_k8:oKA1J`CQ0`f0
+R1
+R2
+R31
+R35
+R36
+L0 78
+R5
+r1
+!s85 0
+31
+R33
+R37
+R38
+!i113 1
+R7
+R8
+R9
+vtetris_soc_jtag_uart_0_sim_scfifo_r
+R34
+!i10b 1
+!s100 SQaj2^CP88YST^GHYcVnd1
+IkSP2QgHOIcHTh3lkmPIoc3
+R1
+R2
+R31
+R35
+R36
+L0 164
+R5
+r1
+!s85 0
+31
+R33
+R37
+R38
+!i113 1
+R7
+R8
+R9
+vtetris_soc_jtag_uart_0_sim_scfifo_w
+R34
+!i10b 1
+!s100 17:;LKHhbWhUD]o8kP0B10
+I;K;3C6;l?8GMoX2PPIUB00
+R1
+R2
+R31
+R35
+R36
+R4
+R5
+r1
+!s85 0
+31
+R33
+R37
+R38
+!i113 1
+R7
+R8
+R9
+vtetris_soc_key
+Z39 !s110 1605671565
+!i10b 1
+!s100 R1XDL:OEVX;jJBY>fGEE_3
+I:X`0TIf>NTQhWF2[B<SDk1
+R1
+R2
+R31
+8C:/ECE_385/Tetris/tetris_soc/synthesis/submodules/tetris_soc_key.v
+FC:/ECE_385/Tetris/tetris_soc/synthesis/submodules/tetris_soc_key.v
+R4
+R5
+r1
+!s85 0
+31
+Z40 !s108 1605671565.000000
+!s107 C:/ECE_385/Tetris/tetris_soc/synthesis/submodules/tetris_soc_key.v|
+!s90 -reportprogress|300|-vlog01compat|-work|tetris_soc|+incdir+C:/ECE_385/Tetris/tetris_soc/synthesis/submodules|C:/ECE_385/Tetris/tetris_soc/synthesis/submodules/tetris_soc_key.v|
+!i113 1
+R7
+R8
+R9
+vtetris_soc_keycode
+R39
+!i10b 1
+!s100 `Q8KOEWfzTd>4H8DZOlEH2
+I1]okRDlPHH646=hh_DTKA0
+R1
+R2
+w1605491830
+8C:/ECE_385/Tetris/tetris_soc/synthesis/submodules/tetris_soc_keycode.v
+FC:/ECE_385/Tetris/tetris_soc/synthesis/submodules/tetris_soc_keycode.v
+R4
+R5
+r1
+!s85 0
+31
+R40
+!s107 C:/ECE_385/Tetris/tetris_soc/synthesis/submodules/tetris_soc_keycode.v|
+!s90 -reportprogress|300|-vlog01compat|-work|tetris_soc|+incdir+C:/ECE_385/Tetris/tetris_soc/synthesis/submodules|C:/ECE_385/Tetris/tetris_soc/synthesis/submodules/tetris_soc_keycode.v|
+!i113 1
+R7
+R8
+R9
+vtetris_soc_mm_interconnect_0
+R29
+!i10b 1
+!s100 09_]VETTemhIIa<j8<Ac=3
+IY5UQH3ZJ9Uj6EA]la5d>:0
+R1
+R2
+R28
+8C:/ECE_385/Tetris/tetris_soc/synthesis/submodules/tetris_soc_mm_interconnect_0.v
+FC:/ECE_385/Tetris/tetris_soc/synthesis/submodules/tetris_soc_mm_interconnect_0.v
+L0 9
+R5
+r1
+!s85 0
+31
+R30
+!s107 C:/ECE_385/Tetris/tetris_soc/synthesis/submodules/tetris_soc_mm_interconnect_0.v|
+!s90 -reportprogress|300|-vlog01compat|-work|tetris_soc|+incdir+C:/ECE_385/Tetris/tetris_soc/synthesis/submodules|C:/ECE_385/Tetris/tetris_soc/synthesis/submodules/tetris_soc_mm_interconnect_0.v|
+!i113 1
+R7
+R8
+R9
+vtetris_soc_mm_interconnect_0_avalon_st_adapter
+Z41 !s110 1605671556
+!i10b 1
+!s100 DK3e_zdPK:7k2IJPCKb:d0
+I<:_gihXDB8Q^^TRBO<IPZ3
+R1
+R2
+w1605491860
+8C:/ECE_385/Tetris/tetris_soc/synthesis/submodules/tetris_soc_mm_interconnect_0_avalon_st_adapter.v
+FC:/ECE_385/Tetris/tetris_soc/synthesis/submodules/tetris_soc_mm_interconnect_0_avalon_st_adapter.v
+L0 9
+R5
+r1
+!s85 0
+31
+Z42 !s108 1605671556.000000
+!s107 C:/ECE_385/Tetris/tetris_soc/synthesis/submodules/tetris_soc_mm_interconnect_0_avalon_st_adapter.v|
+!s90 -reportprogress|300|-vlog01compat|-work|tetris_soc|+incdir+C:/ECE_385/Tetris/tetris_soc/synthesis/submodules|C:/ECE_385/Tetris/tetris_soc/synthesis/submodules/tetris_soc_mm_interconnect_0_avalon_st_adapter.v|
+!i113 1
+R7
+R8
+R9
+vtetris_soc_mm_interconnect_0_avalon_st_adapter_006
+R41
+!i10b 1
+!s100 6=_=jDKKV505XR@]3g5c=1
+Ieb85lM8U<Wggn3KVWNRJ60
+R1
+R2
+Z43 w1605491861
+8C:/ECE_385/Tetris/tetris_soc/synthesis/submodules/tetris_soc_mm_interconnect_0_avalon_st_adapter_006.v
+FC:/ECE_385/Tetris/tetris_soc/synthesis/submodules/tetris_soc_mm_interconnect_0_avalon_st_adapter_006.v
+L0 9
+R5
+r1
+!s85 0
+31
+R42
+!s107 C:/ECE_385/Tetris/tetris_soc/synthesis/submodules/tetris_soc_mm_interconnect_0_avalon_st_adapter_006.v|
+!s90 -reportprogress|300|-vlog01compat|-work|tetris_soc|+incdir+C:/ECE_385/Tetris/tetris_soc/synthesis/submodules|C:/ECE_385/Tetris/tetris_soc/synthesis/submodules/tetris_soc_mm_interconnect_0_avalon_st_adapter_006.v|
+!i113 1
+R7
+R8
+R9
+vtetris_soc_mm_interconnect_0_avalon_st_adapter_006_error_adapter_0
+R15
+R32
+!i10b 1
+!s100 W6A>W^KaFi^cgNb9iij740
+I^=IIe6WDA3`DK[QG=a@_`3
+R1
+!s105 tetris_soc_mm_interconnect_0_avalon_st_adapter_006_error_adapter_0_sv_unit
+S1
+R2
+R43
+8C:/ECE_385/Tetris/tetris_soc/synthesis/submodules/tetris_soc_mm_interconnect_0_avalon_st_adapter_006_error_adapter_0.sv
+FC:/ECE_385/Tetris/tetris_soc/synthesis/submodules/tetris_soc_mm_interconnect_0_avalon_st_adapter_006_error_adapter_0.sv
+Z44 L0 66
+R5
+r1
+!s85 0
+31
+!s108 1605671567.000000
+!s107 C:/ECE_385/Tetris/tetris_soc/synthesis/submodules/tetris_soc_mm_interconnect_0_avalon_st_adapter_006_error_adapter_0.sv|
+!s90 -reportprogress|300|-sv|-work|tetris_soc|+incdir+C:/ECE_385/Tetris/tetris_soc/synthesis/submodules|C:/ECE_385/Tetris/tetris_soc/synthesis/submodules/tetris_soc_mm_interconnect_0_avalon_st_adapter_006_error_adapter_0.sv|
+!i113 1
+R23
+R24
+R9
+vtetris_soc_mm_interconnect_0_avalon_st_adapter_error_adapter_0
+R15
+R12
+!i10b 1
+!s100 _eP32[n;F3oLM1B0ShaF<0
+I7Rn6Q>4Rc>[K?l3QJ_0g]3
+R1
+!s105 tetris_soc_mm_interconnect_0_avalon_st_adapter_error_adapter_0_sv_unit
+S1
+R2
+R43
+8C:/ECE_385/Tetris/tetris_soc/synthesis/submodules/tetris_soc_mm_interconnect_0_avalon_st_adapter_error_adapter_0.sv
+FC:/ECE_385/Tetris/tetris_soc/synthesis/submodules/tetris_soc_mm_interconnect_0_avalon_st_adapter_error_adapter_0.sv
+R44
+R5
+r1
+!s85 0
+31
+R14
+!s107 C:/ECE_385/Tetris/tetris_soc/synthesis/submodules/tetris_soc_mm_interconnect_0_avalon_st_adapter_error_adapter_0.sv|
+!s90 -reportprogress|300|-sv|-work|tetris_soc|+incdir+C:/ECE_385/Tetris/tetris_soc/synthesis/submodules|C:/ECE_385/Tetris/tetris_soc/synthesis/submodules/tetris_soc_mm_interconnect_0_avalon_st_adapter_error_adapter_0.sv|
+!i113 1
+R23
+R24
+R9
+vtetris_soc_mm_interconnect_0_cmd_demux
+R15
+Z45 !s110 1605671575
+!i10b 1
+!s100 hSi=glLSP]_1gRcV48@F>2
+IbAQVCfAhXlLWAlcdVPHoM1
+R1
+!s105 tetris_soc_mm_interconnect_0_cmd_demux_sv_unit
+S1
+R2
+R3
+8C:/ECE_385/Tetris/tetris_soc/synthesis/submodules/tetris_soc_mm_interconnect_0_cmd_demux.sv
+FC:/ECE_385/Tetris/tetris_soc/synthesis/submodules/tetris_soc_mm_interconnect_0_cmd_demux.sv
+Z46 L0 43
+R5
+r1
+!s85 0
+31
+!s108 1605671575.000000
+!s107 C:/ECE_385/Tetris/tetris_soc/synthesis/submodules/tetris_soc_mm_interconnect_0_cmd_demux.sv|
+!s90 -reportprogress|300|-sv|-work|tetris_soc|+incdir+C:/ECE_385/Tetris/tetris_soc/synthesis/submodules|C:/ECE_385/Tetris/tetris_soc/synthesis/submodules/tetris_soc_mm_interconnect_0_cmd_demux.sv|
+!i113 1
+R23
+R24
+R9
+vtetris_soc_mm_interconnect_0_cmd_demux_001
+R15
+R45
+!i10b 1
+!s100 ;^ReWk<fK:PDi^=Q[OMAg2
+IAez[58VaV7YBGTCLgeMOC3
+R1
+!s105 tetris_soc_mm_interconnect_0_cmd_demux_001_sv_unit
+S1
+R2
+R3
+8C:/ECE_385/Tetris/tetris_soc/synthesis/submodules/tetris_soc_mm_interconnect_0_cmd_demux_001.sv
+FC:/ECE_385/Tetris/tetris_soc/synthesis/submodules/tetris_soc_mm_interconnect_0_cmd_demux_001.sv
+R46
+R5
+r1
+!s85 0
+31
+Z47 !s108 1605671574.000000
+!s107 C:/ECE_385/Tetris/tetris_soc/synthesis/submodules/tetris_soc_mm_interconnect_0_cmd_demux_001.sv|
+!s90 -reportprogress|300|-sv|-work|tetris_soc|+incdir+C:/ECE_385/Tetris/tetris_soc/synthesis/submodules|C:/ECE_385/Tetris/tetris_soc/synthesis/submodules/tetris_soc_mm_interconnect_0_cmd_demux_001.sv|
+!i113 1
+R23
+R24
+R9
+vtetris_soc_mm_interconnect_0_cmd_mux
+R15
+!s110 1605671574
+!i10b 1
+!s100 Qo1ARSWED>:kID53D?3I93
+IZPdIRa4E4zbgPTMEd??:43
+R1
+!s105 tetris_soc_mm_interconnect_0_cmd_mux_sv_unit
+S1
+R2
+R3
+8C:/ECE_385/Tetris/tetris_soc/synthesis/submodules/tetris_soc_mm_interconnect_0_cmd_mux.sv
+FC:/ECE_385/Tetris/tetris_soc/synthesis/submodules/tetris_soc_mm_interconnect_0_cmd_mux.sv
+Z48 L0 51
+R5
+r1
+!s85 0
+31
+R47
+!s107 C:/ECE_385/Tetris/tetris_soc/synthesis/submodules/tetris_soc_mm_interconnect_0_cmd_mux.sv|
+!s90 -reportprogress|300|-sv|-work|tetris_soc|+incdir+C:/ECE_385/Tetris/tetris_soc/synthesis/submodules|C:/ECE_385/Tetris/tetris_soc/synthesis/submodules/tetris_soc_mm_interconnect_0_cmd_mux.sv|
+!i113 1
+R23
+R24
+R9
+vtetris_soc_mm_interconnect_0_cmd_mux_001
+R15
+Z49 !s110 1605671573
+!i10b 1
+!s100 VdP`DBeYM99S5Jdd0U:;I2
+IFnSPQ_:9:KgGFP<JD>3V?3
+R1
+!s105 tetris_soc_mm_interconnect_0_cmd_mux_001_sv_unit
+S1
+R2
+R3
+8C:/ECE_385/Tetris/tetris_soc/synthesis/submodules/tetris_soc_mm_interconnect_0_cmd_mux_001.sv
+FC:/ECE_385/Tetris/tetris_soc/synthesis/submodules/tetris_soc_mm_interconnect_0_cmd_mux_001.sv
+R48
+R5
+r1
+!s85 0
+31
+Z50 !s108 1605671573.000000
+!s107 C:/ECE_385/Tetris/tetris_soc/synthesis/submodules/tetris_soc_mm_interconnect_0_cmd_mux_001.sv|
+!s90 -reportprogress|300|-sv|-work|tetris_soc|+incdir+C:/ECE_385/Tetris/tetris_soc/synthesis/submodules|C:/ECE_385/Tetris/tetris_soc/synthesis/submodules/tetris_soc_mm_interconnect_0_cmd_mux_001.sv|
+!i113 1
+R23
+R24
+R9
+vtetris_soc_mm_interconnect_0_rsp_demux
+R15
+R49
+!i10b 1
+!s100 5`ah`RROI5J]WCjA19Y>N1
+Igb2d__4j]7Fmz`fi?;coX0
+R1
+!s105 tetris_soc_mm_interconnect_0_rsp_demux_sv_unit
+S1
+R2
+R3
+8C:/ECE_385/Tetris/tetris_soc/synthesis/submodules/tetris_soc_mm_interconnect_0_rsp_demux.sv
+FC:/ECE_385/Tetris/tetris_soc/synthesis/submodules/tetris_soc_mm_interconnect_0_rsp_demux.sv
+R46
+R5
+r1
+!s85 0
+31
+R50
+!s107 C:/ECE_385/Tetris/tetris_soc/synthesis/submodules/tetris_soc_mm_interconnect_0_rsp_demux.sv|
+!s90 -reportprogress|300|-sv|-work|tetris_soc|+incdir+C:/ECE_385/Tetris/tetris_soc/synthesis/submodules|C:/ECE_385/Tetris/tetris_soc/synthesis/submodules/tetris_soc_mm_interconnect_0_rsp_demux.sv|
+!i113 1
+R23
+R24
+R9
+vtetris_soc_mm_interconnect_0_rsp_demux_001
+R15
+Z51 !s110 1605671572
+!i10b 1
+!s100 zUa693K]o2gD[Zm9=75z:2
+ILHG`4T;]b^1WXD1P^=R0Q1
+R1
+!s105 tetris_soc_mm_interconnect_0_rsp_demux_001_sv_unit
+S1
+R2
+R3
+8C:/ECE_385/Tetris/tetris_soc/synthesis/submodules/tetris_soc_mm_interconnect_0_rsp_demux_001.sv
+FC:/ECE_385/Tetris/tetris_soc/synthesis/submodules/tetris_soc_mm_interconnect_0_rsp_demux_001.sv
+R46
+R5
+r1
+!s85 0
+31
+Z52 !s108 1605671572.000000
+!s107 C:/ECE_385/Tetris/tetris_soc/synthesis/submodules/tetris_soc_mm_interconnect_0_rsp_demux_001.sv|
+!s90 -reportprogress|300|-sv|-work|tetris_soc|+incdir+C:/ECE_385/Tetris/tetris_soc/synthesis/submodules|C:/ECE_385/Tetris/tetris_soc/synthesis/submodules/tetris_soc_mm_interconnect_0_rsp_demux_001.sv|
+!i113 1
+R23
+R24
+R9
+vtetris_soc_mm_interconnect_0_rsp_mux
+R15
+R51
+!i10b 1
+!s100 PBzLFzY;c830M[NJ:]HhE3
+IIfjN=PJ<X91I<<mk3G1MS0
+R1
+!s105 tetris_soc_mm_interconnect_0_rsp_mux_sv_unit
+S1
+R2
+R3
+8C:/ECE_385/Tetris/tetris_soc/synthesis/submodules/tetris_soc_mm_interconnect_0_rsp_mux.sv
+FC:/ECE_385/Tetris/tetris_soc/synthesis/submodules/tetris_soc_mm_interconnect_0_rsp_mux.sv
+R48
+R5
+r1
+!s85 0
+31
+R52
+!s107 C:/ECE_385/Tetris/tetris_soc/synthesis/submodules/tetris_soc_mm_interconnect_0_rsp_mux.sv|
+!s90 -reportprogress|300|-sv|-work|tetris_soc|+incdir+C:/ECE_385/Tetris/tetris_soc/synthesis/submodules|C:/ECE_385/Tetris/tetris_soc/synthesis/submodules/tetris_soc_mm_interconnect_0_rsp_mux.sv|
+!i113 1
+R23
+R24
+R9
+vtetris_soc_mm_interconnect_0_rsp_mux_001
+R15
+R16
+!i10b 1
+!s100 l1MGI=0onF@dQGY7a18fm3
+IRj3dekcY1M5;JdZR`N98g0
+R1
+!s105 tetris_soc_mm_interconnect_0_rsp_mux_001_sv_unit
+S1
+R2
+R3
+8C:/ECE_385/Tetris/tetris_soc/synthesis/submodules/tetris_soc_mm_interconnect_0_rsp_mux_001.sv
+FC:/ECE_385/Tetris/tetris_soc/synthesis/submodules/tetris_soc_mm_interconnect_0_rsp_mux_001.sv
+R48
+R5
+r1
+!s85 0
+31
+R20
+!s107 C:/ECE_385/Tetris/tetris_soc/synthesis/submodules/tetris_soc_mm_interconnect_0_rsp_mux_001.sv|
+!s90 -reportprogress|300|-sv|-work|tetris_soc|+incdir+C:/ECE_385/Tetris/tetris_soc/synthesis/submodules|C:/ECE_385/Tetris/tetris_soc/synthesis/submodules/tetris_soc_mm_interconnect_0_rsp_mux_001.sv|
+!i113 1
+R23
+R24
+R9
+vtetris_soc_nios2_gen2_0
+Z53 !s110 1605671562
+!i10b 1
+!s100 LADnUITTUGW<JigLIX?@T1
+IKJnE9MUKmA[R3dM:TzZ:o3
+R1
+R2
+Z54 w1605491831
+8C:/ECE_385/Tetris/tetris_soc/synthesis/submodules/tetris_soc_nios2_gen2_0.v
+FC:/ECE_385/Tetris/tetris_soc/synthesis/submodules/tetris_soc_nios2_gen2_0.v
+L0 9
+R5
+r1
+!s85 0
+31
+Z55 !s108 1605671562.000000
+!s107 C:/ECE_385/Tetris/tetris_soc/synthesis/submodules/tetris_soc_nios2_gen2_0.v|
+!s90 -reportprogress|300|-vlog01compat|-work|tetris_soc|+incdir+C:/ECE_385/Tetris/tetris_soc/synthesis/submodules|C:/ECE_385/Tetris/tetris_soc/synthesis/submodules/tetris_soc_nios2_gen2_0.v|
+!i113 1
+R7
+R8
+R9
+vtetris_soc_nios2_gen2_0_cpu
+R53
+!i10b 1
+!s100 >8e6F]JzTY2YnW80KBjAj3
+IJQD9j@ZAcCGMDZc=]Q>ji3
+R1
+R2
+R3
+Z56 8C:/ECE_385/Tetris/tetris_soc/synthesis/submodules/tetris_soc_nios2_gen2_0_cpu.v
+Z57 FC:/ECE_385/Tetris/tetris_soc/synthesis/submodules/tetris_soc_nios2_gen2_0_cpu.v
+L0 2834
+R5
+r1
+!s85 0
+31
+R55
+Z58 !s107 C:/ECE_385/Tetris/tetris_soc/synthesis/submodules/tetris_soc_nios2_gen2_0_cpu.v|
+Z59 !s90 -reportprogress|300|-vlog01compat|-work|tetris_soc|+incdir+C:/ECE_385/Tetris/tetris_soc/synthesis/submodules|C:/ECE_385/Tetris/tetris_soc/synthesis/submodules/tetris_soc_nios2_gen2_0_cpu.v|
+!i113 1
+R7
+R8
+R9
+vtetris_soc_nios2_gen2_0_cpu_debug_slave_sysclk
+Z60 !s110 1605671563
+!i10b 1
+!s100 hknEIaP1QRRYe[=Y3^m;a1
+ILZ:>X=QY5RYlhiCdPAc]83
+R1
+R2
+R3
+8C:/ECE_385/Tetris/tetris_soc/synthesis/submodules/tetris_soc_nios2_gen2_0_cpu_debug_slave_sysclk.v
+FC:/ECE_385/Tetris/tetris_soc/synthesis/submodules/tetris_soc_nios2_gen2_0_cpu_debug_slave_sysclk.v
+R4
+R5
+r1
+!s85 0
+31
+Z61 !s108 1605671563.000000
+!s107 C:/ECE_385/Tetris/tetris_soc/synthesis/submodules/tetris_soc_nios2_gen2_0_cpu_debug_slave_sysclk.v|
+!s90 -reportprogress|300|-vlog01compat|-work|tetris_soc|+incdir+C:/ECE_385/Tetris/tetris_soc/synthesis/submodules|C:/ECE_385/Tetris/tetris_soc/synthesis/submodules/tetris_soc_nios2_gen2_0_cpu_debug_slave_sysclk.v|
+!i113 1
+R7
+R8
+R9
+vtetris_soc_nios2_gen2_0_cpu_debug_slave_tck
+R60
+!i10b 1
+!s100 IojDj^XWLgZX=UMa75HCA2
+I0U>:hofa0CeNE6HciS;g:0
+R1
+R2
+R3
+8C:/ECE_385/Tetris/tetris_soc/synthesis/submodules/tetris_soc_nios2_gen2_0_cpu_debug_slave_tck.v
+FC:/ECE_385/Tetris/tetris_soc/synthesis/submodules/tetris_soc_nios2_gen2_0_cpu_debug_slave_tck.v
+R4
+R5
+r1
+!s85 0
+31
+R61
+!s107 C:/ECE_385/Tetris/tetris_soc/synthesis/submodules/tetris_soc_nios2_gen2_0_cpu_debug_slave_tck.v|
+!s90 -reportprogress|300|-vlog01compat|-work|tetris_soc|+incdir+C:/ECE_385/Tetris/tetris_soc/synthesis/submodules|C:/ECE_385/Tetris/tetris_soc/synthesis/submodules/tetris_soc_nios2_gen2_0_cpu_debug_slave_tck.v|
+!i113 1
+R7
+R8
+R9
+vtetris_soc_nios2_gen2_0_cpu_debug_slave_wrapper
+Z62 !s110 1605671564
+!i10b 1
+!s100 j3W9^C879m8dEY6]mN>Za1
+IS3afe=W>mmF:^UDW5UMHj1
+R1
+R2
+R3
+8C:/ECE_385/Tetris/tetris_soc/synthesis/submodules/tetris_soc_nios2_gen2_0_cpu_debug_slave_wrapper.v
+FC:/ECE_385/Tetris/tetris_soc/synthesis/submodules/tetris_soc_nios2_gen2_0_cpu_debug_slave_wrapper.v
+R4
+R5
+r1
+!s85 0
+31
+Z63 !s108 1605671564.000000
+!s107 C:/ECE_385/Tetris/tetris_soc/synthesis/submodules/tetris_soc_nios2_gen2_0_cpu_debug_slave_wrapper.v|
+!s90 -reportprogress|300|-vlog01compat|-work|tetris_soc|+incdir+C:/ECE_385/Tetris/tetris_soc/synthesis/submodules|C:/ECE_385/Tetris/tetris_soc/synthesis/submodules/tetris_soc_nios2_gen2_0_cpu_debug_slave_wrapper.v|
+!i113 1
+R7
+R8
+R9
+vtetris_soc_nios2_gen2_0_cpu_nios2_avalon_reg
+R53
+!i10b 1
+!s100 [0X4FUfck:UP[B@RMHWW21
+IGkI]A57K1_Wna_26fE1BC0
+R1
+R2
+R3
+R56
+R57
+L0 2023
+R5
+r1
+!s85 0
+31
+R55
+R58
+R59
+!i113 1
+R7
+R8
+R9
+vtetris_soc_nios2_gen2_0_cpu_nios2_oci
+R53
+!i10b 1
+!s100 4lj3:ZV2EV:2bWg0R?Uj31
+Il7ijUGWDKFmX2i8=7T=2l1
+R1
+R2
+R3
+R56
+R57
+L0 2362
+R5
+r1
+!s85 0
+31
+R55
+R58
+R59
+!i113 1
+R7
+R8
+R9
+vtetris_soc_nios2_gen2_0_cpu_nios2_oci_break
+R53
+!i10b 1
+!s100 J^ZINP<UOghRHdPMii<Pl2
+IcV1]l76fXhZ8IoNTEQz7D0
+R1
+R2
+R3
+R56
+R57
+L0 295
+R5
+r1
+!s85 0
+31
+R55
+R58
+R59
+!i113 1
+R7
+R8
+R9
+vtetris_soc_nios2_gen2_0_cpu_nios2_oci_compute_input_tm_cnt
+R53
+!i10b 1
+!s100 @Z;iSGSRTd8`G6mO5a>Dz0
+I8;gZV?dlfDE_DTe624k@:1
+R1
+R2
+R3
+R56
+R57
+L0 1265
+R5
+r1
+!s85 0
+31
+R55
+R58
+R59
+!i113 1
+R7
+R8
+R9
+vtetris_soc_nios2_gen2_0_cpu_nios2_oci_dbrk
+R53
+!i10b 1
+!s100 UXJfFG_0=A3CL?ohnLzT62
+IF:f4T0gPjA;R<Sm5^:3XH2
+R1
+R2
+R3
+R56
+R57
+L0 795
+R5
+r1
+!s85 0
+31
+R55
+R58
+R59
+!i113 1
+R7
+R8
+R9
+vtetris_soc_nios2_gen2_0_cpu_nios2_oci_debug
+R53
+!i10b 1
+!s100 7okQWN=;U>L05MkSPl1KY2
+ISd=jYi<Ec7Pn?ka5=izQ`3
+R1
+R2
+R3
+R56
+R57
+L0 153
+R5
+r1
+!s85 0
+31
+R55
+R58
+R59
+!i113 1
+R7
+R8
+R9
+vtetris_soc_nios2_gen2_0_cpu_nios2_oci_dtrace
+R53
+!i10b 1
+!s100 cMiOL^KkkR107OO:>GND]0
+I;5Kg_5^Ti>H^=M_MT>eSh3
+R1
+R2
+R3
+R56
+R57
+L0 1183
+R5
+r1
+!s85 0
+31
+R55
+R58
+R59
+!i113 1
+R7
+R8
+R9
+vtetris_soc_nios2_gen2_0_cpu_nios2_oci_fifo
+R53
+!i10b 1
+!s100 XGi8eXSAMRjgUaH4>A42o3
+I><ObXTNU<M:YZaoVlGb5@0
+R1
+R2
+R3
+R56
+R57
+L0 1427
+R5
+r1
+!s85 0
+31
+R55
+R58
+R59
+!i113 1
+R7
+R8
+R9
+vtetris_soc_nios2_gen2_0_cpu_nios2_oci_fifo_cnt_inc
+R53
+!i10b 1
+!s100 K0RDEOOP?J[nJH;_J_EGU1
+IUJIoW3GlbgIT61a2Cg=kJ1
+R1
+R2
+R3
+R56
+R57
+L0 1380
+R5
+r1
+!s85 0
+31
+R55
+R58
+R59
+!i113 1
+R7
+R8
+R9
+vtetris_soc_nios2_gen2_0_cpu_nios2_oci_fifo_wrptr_inc
+R53
+!i10b 1
+!s100 P0YemLA7cz95a`f:<9zbE2
+Io7M<lJ?ekc_`oaMj9U>[z3
+R1
+R2
+R3
+R56
+R57
+L0 1337
+R5
+r1
+!s85 0
+31
+R55
+R58
+R59
+!i113 1
+R7
+R8
+R9
+vtetris_soc_nios2_gen2_0_cpu_nios2_oci_im
+R53
+!i10b 1
+!s100 Y[QPS84QR3A;CRUFYNzZf0
+Iad?c?>MN<]IR>>X89P3EO0
+R1
+R2
+R3
+R56
+R57
+L0 1936
+R5
+r1
+!s85 0
+31
+R55
+R58
+R59
+!i113 1
+R7
+R8
+R9
+vtetris_soc_nios2_gen2_0_cpu_nios2_oci_itrace
+R53
+!i10b 1
+!s100 AN]]`?:NK[8VQQXZ9=@G>0
+IXkPOVmmeR>1>jWe_hFDRe2
+R1
+R2
+R3
+R56
+R57
+L0 982
+R5
+r1
+!s85 0
+31
+R55
+R58
+R59
+!i113 1
+R7
+R8
+R9
+vtetris_soc_nios2_gen2_0_cpu_nios2_oci_pib
+R53
+!i10b 1
+!s100 eA;TDF>_gUIY3=[UL1nJa0
+Ihc<84IB0k_DVc@L[DJ?^T2
+R1
+R2
+R3
+R56
+R57
+L0 1913
+R5
+r1
+!s85 0
+31
+R55
+R58
+R59
+!i113 1
+R7
+R8
+R9
+vtetris_soc_nios2_gen2_0_cpu_nios2_oci_td_mode
+R53
+!i10b 1
+!s100 HG@[3hP<QX9a9mk[9cJ@L0
+IJEYAH6]gXc7jz0Ll9R;hl2
+R1
+R2
+R3
+R56
+R57
+L0 1115
+R5
+r1
+!s85 0
+31
+R55
+R58
+R59
+!i113 1
+R7
+R8
+R9
+vtetris_soc_nios2_gen2_0_cpu_nios2_oci_xbrk
+R53
+!i10b 1
+!s100 YMAQh8@PjMJTJE8NK3GSL0
+I:JPZLO]fDi`i]CA=mzQn62
+R1
+R2
+R3
+R56
+R57
+L0 588
+R5
+r1
+!s85 0
+31
+R55
+R58
+R59
+!i113 1
+R7
+R8
+R9
+vtetris_soc_nios2_gen2_0_cpu_nios2_ocimem
+R53
+!i10b 1
+!s100 bZ?[mVoWYJ8:347:?_?_F3
+IkQ5=[L@WJ=LG]agiF>OMU1
+R1
+R2
+R3
+R56
+R57
+L0 2181
+R5
+r1
+!s85 0
+31
+R55
+R58
+R59
+!i113 1
+R7
+R8
+R9
+vtetris_soc_nios2_gen2_0_cpu_nios2_performance_monitors
+R53
+!i10b 1
+!s100 GBaPA^nV5_Jj=`h=T]OO`3
+IRe0B_d@W6_0lLjeRjaBi41
+R1
+R2
+R3
+R56
+R57
+L0 2006
+R5
+r1
+!s85 0
+31
+R55
+R58
+R59
+!i113 1
+R7
+R8
+R9
+vtetris_soc_nios2_gen2_0_cpu_ociram_sp_ram_module
+R53
+!i10b 1
+!s100 1B=J:_PbnG]9k6UKFbD^o1
+Ih3Q5cZCJlz:z_B^GJ08o>2
+R1
+R2
+R3
+R56
+R57
+L0 2116
+R5
+r1
+!s85 0
+31
+R55
+R58
+R59
+!i113 1
+R7
+R8
+R9
+vtetris_soc_nios2_gen2_0_cpu_register_bank_a_module
+R53
+!i10b 1
+!s100 GCka@`2;^aoXSzcSG9J9U3
+IOP<IBQ1LGc@KOEi7`Bi`L2
+R1
+R2
+R3
+R56
+R57
+R4
+R5
+r1
+!s85 0
+31
+R55
+R58
+R59
+!i113 1
+R7
+R8
+R9
+vtetris_soc_nios2_gen2_0_cpu_register_bank_b_module
+R53
+!i10b 1
+!s100 aoCN>2N`]fl4?]DB:2fDi3
+I0WN2ilA0nMQFI;>MO6DmP0
+R1
+R2
+R3
+R56
+R57
+L0 87
+R5
+r1
+!s85 0
+31
+R55
+R58
+R59
+!i113 1
+R7
+R8
+R9
+vtetris_soc_nios2_gen2_0_cpu_test_bench
+R62
+!i10b 1
+!s100 bU36M@_6OaV7WdaSzI?ST3
+IB0i<08T]oGc9bdmAGoi=43
+R1
+R2
+R3
+8C:/ECE_385/Tetris/tetris_soc/synthesis/submodules/tetris_soc_nios2_gen2_0_cpu_test_bench.v
+FC:/ECE_385/Tetris/tetris_soc/synthesis/submodules/tetris_soc_nios2_gen2_0_cpu_test_bench.v
+R4
+R5
+r1
+!s85 0
+31
+R63
+!s107 C:/ECE_385/Tetris/tetris_soc/synthesis/submodules/tetris_soc_nios2_gen2_0_cpu_test_bench.v|
+!s90 -reportprogress|300|-vlog01compat|-work|tetris_soc|+incdir+C:/ECE_385/Tetris/tetris_soc/synthesis/submodules|C:/ECE_385/Tetris/tetris_soc/synthesis/submodules/tetris_soc_nios2_gen2_0_cpu_test_bench.v|
+!i113 1
+R7
+R8
+R9
+vtetris_soc_onchip_memory2_0
+Z64 !s110 1605671561
+!i10b 1
+!s100 :HcQGP?@@J^EBI0GYXS6O2
+IdN8`AOoDK8fdnH]2_T55>3
+R1
+R2
+R54
+8C:/ECE_385/Tetris/tetris_soc/synthesis/submodules/tetris_soc_onchip_memory2_0.v
+FC:/ECE_385/Tetris/tetris_soc/synthesis/submodules/tetris_soc_onchip_memory2_0.v
+R4
+R5
+r1
+!s85 0
+31
+Z65 !s108 1605671561.000000
+!s107 C:/ECE_385/Tetris/tetris_soc/synthesis/submodules/tetris_soc_onchip_memory2_0.v|
+!s90 -reportprogress|300|-vlog01compat|-work|tetris_soc|+incdir+C:/ECE_385/Tetris/tetris_soc/synthesis/submodules|C:/ECE_385/Tetris/tetris_soc/synthesis/submodules/tetris_soc_onchip_memory2_0.v|
+!i113 1
+R7
+R8
+R9
+vtetris_soc_sdram
+R64
+!i10b 1
+!s100 ]nBE?hhlU:U>QNHT2b;`_0
+I4]H]>zCl1o4iU^Oe4o80m1
+R1
+R2
+R54
+Z66 8C:/ECE_385/Tetris/tetris_soc/synthesis/submodules/tetris_soc_sdram.v
+Z67 FC:/ECE_385/Tetris/tetris_soc/synthesis/submodules/tetris_soc_sdram.v
+L0 159
+R5
+r1
+!s85 0
+31
+R65
+Z68 !s107 C:/ECE_385/Tetris/tetris_soc/synthesis/submodules/tetris_soc_sdram.v|
+Z69 !s90 -reportprogress|300|-vlog01compat|-work|tetris_soc|+incdir+C:/ECE_385/Tetris/tetris_soc/synthesis/submodules|C:/ECE_385/Tetris/tetris_soc/synthesis/submodules/tetris_soc_sdram.v|
+!i113 1
+R7
+R8
+R9
+vtetris_soc_sdram_input_efifo_module
+R64
+!i10b 1
+!s100 BR6>Qz1K80C=H;hIXOa7H0
+IjTceKA:cP7BPWhTeZYW`S1
+R1
+R2
+R54
+R66
+R67
+R4
+R5
+r1
+!s85 0
+31
+R65
+R68
+R69
+!i113 1
+R7
+R8
+R9
+vtetris_soc_sdram_pll
+Z70 !s110 1605671560
+!i10b 1
+!s100 MglZ>HnjnBP8F?Ne[EI^V0
+IC68gVe8M3N73D=hSU@C>L0
+R1
+R2
+Z71 w1605491833
+Z72 8C:/ECE_385/Tetris/tetris_soc/synthesis/submodules/tetris_soc_sdram_pll.v
+Z73 FC:/ECE_385/Tetris/tetris_soc/synthesis/submodules/tetris_soc_sdram_pll.v
+L0 217
+R5
+r1
+!s85 0
+31
+Z74 !s108 1605671560.000000
+Z75 !s107 C:/ECE_385/Tetris/tetris_soc/synthesis/submodules/tetris_soc_sdram_pll.v|
+Z76 !s90 -reportprogress|300|-vlog01compat|-work|tetris_soc|+incdir+C:/ECE_385/Tetris/tetris_soc/synthesis/submodules|C:/ECE_385/Tetris/tetris_soc/synthesis/submodules/tetris_soc_sdram_pll.v|
+!i113 1
+R7
+R8
+R9
+vtetris_soc_sdram_pll_altpll_vg92
+R70
+!i10b 1
+!s100 HUJZKL?ae03mQ_^@ilX[N1
+IBOZH2O=hRVL^<7UIO]Jk@3
+R1
+R2
+R71
+R72
+R73
+L0 130
+R5
+r1
+!s85 0
+31
+R74
+R75
+R76
+!i113 1
+R7
+R8
+R9
+vtetris_soc_sdram_pll_dffpipe_l2c
+R70
+!i10b 1
+!s100 >ATY6GAVRi_EDg1k1_cmQ1
+IKd^D6e9mHVSKKlXbbhm703
+R1
+R2
+R71
+R72
+R73
+L0 37
+R5
+r1
+!s85 0
+31
+R74
+R75
+R76
+!i113 1
+R7
+R8
+R9
+vtetris_soc_sdram_pll_stdsync_sv6
+R70
+!i10b 1
+!s100 bhTD><J2idH1;TNj7<DB]1
+IRjaj^MOnORJ>WEIM<5Z>40
+R1
+R2
+R71
+R72
+R73
+L0 98
+R5
+r1
+!s85 0
+31
+R74
+R75
+R76
+!i113 1
+R7
+R8
+R9
+vtetris_soc_spi_0
+Z77 !s110 1605671559
+!i10b 1
+!s100 `h<QblS@2zHIi`6Sb0oSg3
+IcVnlZgjHOmnb`=46gGCZP1
+R1
+R2
+R71
+8C:/ECE_385/Tetris/tetris_soc/synthesis/submodules/tetris_soc_spi_0.v
+FC:/ECE_385/Tetris/tetris_soc/synthesis/submodules/tetris_soc_spi_0.v
+L0 41
+R5
+r1
+!s85 0
+31
+Z78 !s108 1605671559.000000
+!s107 C:/ECE_385/Tetris/tetris_soc/synthesis/submodules/tetris_soc_spi_0.v|
+!s90 -reportprogress|300|-vlog01compat|-work|tetris_soc|+incdir+C:/ECE_385/Tetris/tetris_soc/synthesis/submodules|C:/ECE_385/Tetris/tetris_soc/synthesis/submodules/tetris_soc_spi_0.v|
+!i113 1
+R7
+R8
+R9
+vtetris_soc_sysid_qsys_0
+R77
+!i10b 1
+!s100 gEHWZ02d7emEOdH9i9mH;2
+Io8dWV`^@;W?]?G^Z`K0f32
+R1
+R2
+R71
+8C:/ECE_385/Tetris/tetris_soc/synthesis/submodules/tetris_soc_sysid_qsys_0.v
+FC:/ECE_385/Tetris/tetris_soc/synthesis/submodules/tetris_soc_sysid_qsys_0.v
+L0 34
+R5
+r1
+!s85 0
+31
+R78
+!s107 C:/ECE_385/Tetris/tetris_soc/synthesis/submodules/tetris_soc_sysid_qsys_0.v|
+!s90 -reportprogress|300|-vlog01compat|-work|tetris_soc|+incdir+C:/ECE_385/Tetris/tetris_soc/synthesis/submodules|C:/ECE_385/Tetris/tetris_soc/synthesis/submodules/tetris_soc_sysid_qsys_0.v|
+!i113 1
+R7
+R8
+R9
+vtetris_soc_timer_0
+Z79 !s110 1605671558
+!i10b 1
+!s100 a>@Koc[Un>G9Yz[XKdRNg3
+Ii5AlQ7:KPzP4l6efFabNZ3
+R1
+R2
+R71
+8C:/ECE_385/Tetris/tetris_soc/synthesis/submodules/tetris_soc_timer_0.v
+FC:/ECE_385/Tetris/tetris_soc/synthesis/submodules/tetris_soc_timer_0.v
+R4
+R5
+r1
+!s85 0
+31
+Z80 !s108 1605671558.000000
+!s107 C:/ECE_385/Tetris/tetris_soc/synthesis/submodules/tetris_soc_timer_0.v|
+!s90 -reportprogress|300|-vlog01compat|-work|tetris_soc|+incdir+C:/ECE_385/Tetris/tetris_soc/synthesis/submodules|C:/ECE_385/Tetris/tetris_soc/synthesis/submodules/tetris_soc_timer_0.v|
+!i113 1
+R7
+R8
+R9
+vtetris_soc_usb_gpx
+R79
+!i10b 1
+!s100 iEXM4=77f;b:El@<BY_z]0
+Idb=S4OB4_7^YnFQbb[BQ?2
+R1
+R2
+Z81 w1605491834
+8C:/ECE_385/Tetris/tetris_soc/synthesis/submodules/tetris_soc_usb_gpx.v
+FC:/ECE_385/Tetris/tetris_soc/synthesis/submodules/tetris_soc_usb_gpx.v
+R4
+R5
+r1
+!s85 0
+31
+R80
+!s107 C:/ECE_385/Tetris/tetris_soc/synthesis/submodules/tetris_soc_usb_gpx.v|
+!s90 -reportprogress|300|-vlog01compat|-work|tetris_soc|+incdir+C:/ECE_385/Tetris/tetris_soc/synthesis/submodules|C:/ECE_385/Tetris/tetris_soc/synthesis/submodules/tetris_soc_usb_gpx.v|
+!i113 1
+R7
+R8
+R9
+vtetris_soc_usb_rst
+R0
+!i10b 1
+!s100 1MA7>Fi20B1hm?;K8`BU;1
+IlMV0SbC`L7ee7N8SV;lJR0
+R1
+R2
+R81
+8C:/ECE_385/Tetris/tetris_soc/synthesis/submodules/tetris_soc_usb_rst.v
+FC:/ECE_385/Tetris/tetris_soc/synthesis/submodules/tetris_soc_usb_rst.v
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/ECE_385/Tetris/tetris_soc/synthesis/submodules/tetris_soc_usb_rst.v|
+!s90 -reportprogress|300|-vlog01compat|-work|tetris_soc|+incdir+C:/ECE_385/Tetris/tetris_soc/synthesis/submodules|C:/ECE_385/Tetris/tetris_soc/synthesis/submodules/tetris_soc_usb_rst.v|
+!i113 1
+R7
+R8
+R9

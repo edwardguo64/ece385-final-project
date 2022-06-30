@@ -1,0 +1,90 @@
+
+State Machine - |tetris|tetris_soc:u0|tetris_soc_sdram:sdram|m_next
+Name m_next.010000000 m_next.000010000 m_next.000001000 m_next.000000001 
+m_next.000000001 0 0 0 0 
+m_next.000001000 0 0 1 1 
+m_next.000010000 0 1 0 1 
+m_next.010000000 1 0 0 1 
+
+State Machine - |tetris|tetris_soc:u0|tetris_soc_sdram:sdram|m_state
+Name m_state.100000000 m_state.010000000 m_state.001000000 m_state.000100000 m_state.000010000 m_state.000001000 m_state.000000100 m_state.000000010 m_state.000000001 
+m_state.000000001 0 0 0 0 0 0 0 0 0 
+m_state.000000010 0 0 0 0 0 0 0 1 1 
+m_state.000000100 0 0 0 0 0 0 1 0 1 
+m_state.000001000 0 0 0 0 0 1 0 0 1 
+m_state.000010000 0 0 0 0 1 0 0 0 1 
+m_state.000100000 0 0 0 1 0 0 0 0 1 
+m_state.001000000 0 0 1 0 0 0 0 0 1 
+m_state.010000000 0 1 0 0 0 0 0 0 1 
+m_state.100000000 1 0 0 0 0 0 0 0 1 
+
+State Machine - |tetris|tetris_soc:u0|tetris_soc_sdram:sdram|i_next
+Name i_next.111 i_next.101 i_next.010 i_next.000 
+i_next.000 0 0 0 0 
+i_next.010 0 0 1 1 
+i_next.101 0 1 0 1 
+i_next.111 1 0 0 1 
+
+State Machine - |tetris|tetris_soc:u0|tetris_soc_sdram:sdram|i_state
+Name i_state.111 i_state.101 i_state.011 i_state.010 i_state.001 i_state.000 
+i_state.000 0 0 0 0 0 0 
+i_state.001 0 0 0 0 1 1 
+i_state.010 0 0 0 1 0 1 
+i_state.011 0 0 1 0 0 1 
+i_state.101 0 1 0 0 0 1 
+i_state.111 1 0 0 0 0 1 
+
+State Machine - |tetris|tetris_soc:u0|tetris_soc_nios2_gen2_0:nios2_gen2_0|tetris_soc_nios2_gen2_0_cpu:cpu|tetris_soc_nios2_gen2_0_cpu_nios2_oci:the_tetris_soc_nios2_gen2_0_cpu_nios2_oci|tetris_soc_nios2_gen2_0_cpu_debug_slave_wrapper:the_tetris_soc_nios2_gen2_0_cpu_debug_slave_wrapper|tetris_soc_nios2_gen2_0_cpu_debug_slave_tck:the_tetris_soc_nios2_gen2_0_cpu_debug_slave_tck|DRsize
+Name DRsize.101 DRsize.100 DRsize.011 DRsize.010 DRsize.001 DRsize.000 
+DRsize.000 0 0 0 0 0 0 
+DRsize.001 0 0 0 0 1 1 
+DRsize.010 0 0 0 1 0 1 
+DRsize.011 0 0 1 0 0 1 
+DRsize.100 0 1 0 0 0 1 
+DRsize.101 1 0 0 0 0 1 
+
+State Machine - |tetris|tetris_soc:u0|avalon_tetris_interface:tetris_game_core_0|update:update_piece|State
+Name State.Wait State.Done State.Update 
+State.Wait 0 0 0 
+State.Update 1 0 1 
+State.Done 1 1 0 
+
+State Machine - |tetris|tetris_soc:u0|avalon_tetris_interface:tetris_game_core_0|moving:moving_piece|key
+Name key.00000100 key.00001101 key.00000000 key.00000111 
+key.00000000 0 0 0 0 
+key.00000100 1 0 1 0 
+key.00000111 0 0 1 1 
+key.00001101 0 1 1 0 
+
+State Machine - |tetris|tetris_soc:u0|avalon_tetris_interface:tetris_game_core_0|moving:moving_piece|State
+Name State.Done State.Shifting State.Moving State.Wait 
+State.Wait 0 0 0 0 
+State.Moving 0 0 1 1 
+State.Shifting 0 1 0 1 
+State.Done 1 0 0 1 
+
+State Machine - |tetris|tetris_soc:u0|avalon_tetris_interface:tetris_game_core_0|init:init_piece|State
+Name State.Wait State.Done State.Generate 
+State.Wait 0 0 0 
+State.Generate 1 0 1 
+State.Done 1 1 0 
+
+State Machine - |tetris|tetris_soc:u0|avalon_tetris_interface:tetris_game_core_0|move:move_state_machine|State
+Name State.Update State.Moving State.Init State.Wait State.Done 
+State.Wait 0 0 0 0 0 
+State.Init 0 0 1 1 0 
+State.Moving 0 1 0 1 0 
+State.Update 1 0 0 1 0 
+State.Done 0 0 0 1 1 
+
+State Machine - |tetris|tetris_soc:u0|avalon_tetris_interface:tetris_game_core_0|hs:high_score_rd_wr|State
+Name State.wr3 State.wr2 State.wr1 State.Done_rd State.rd3 State.rd2 State.rd1 State.Wait State.Done_wr 
+State.Wait 0 0 0 0 0 0 0 0 0 
+State.rd1 0 0 0 0 0 0 1 1 0 
+State.rd2 0 0 0 0 0 1 0 1 0 
+State.rd3 0 0 0 0 1 0 0 1 0 
+State.Done_rd 0 0 0 1 0 0 0 1 0 
+State.wr1 0 0 1 0 0 0 0 1 0 
+State.wr2 0 1 0 0 0 0 0 1 0 
+State.wr3 1 0 0 0 0 0 0 1 0 
+State.Done_wr 0 0 0 0 0 0 0 1 1 

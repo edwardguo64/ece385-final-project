@@ -1,0 +1,12 @@
+transcript on
+if {[file exists rtl_work]} {
+	vdel -lib rtl_work -all
+}
+vlib rtl_work
+vmap work rtl_work
+
+vlib tetris_soc
+vmap tetris_soc tetris_soc
+vlog -sv -work tetris_soc +incdir+C:/Users/meno1/Desktop/Tetris_ver1/Tetris/tetris_soc/synthesis/submodules {C:/Users/meno1/Desktop/Tetris_ver1/Tetris/tetris_soc/synthesis/submodules/avalon_tetris_interface.sv}
+vlog -sv -work work +incdir+C:/Users/meno1/Desktop/Tetris_ver1/Tetris {C:/Users/meno1/Desktop/Tetris_ver1/Tetris/Random.sv}
+

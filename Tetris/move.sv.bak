@@ -1,0 +1,67 @@
+module move (
+    input logic CLK,
+    input logic RESET,
+    input logic START,
+    output logic DONE,
+    output logic Init_start,
+    input logic Init_done,
+    output logic Moving_start,
+    input logic Moving_done,
+    output logic Update_start,
+    input logic Update_done
+);
+
+    enum logic [2:0] {Wait, Init, Moving, Update, Done} State, Next_state;
+    
+    always_ff @ (posedge RESET or posedge CLK)
+    begin
+        if (RESET)
+        begin
+            State <= Wait;
+        end
+        else
+        begin
+            State <= Next_state;
+        end
+    end
+    
+    always_comb
+    begin
+        Next_state = State;
+        
+        DONE = 1'b0;
+        
+        Init_start = 1'b0;
+        Moving_start = 1'b0;
+        Update_start = 1'b0;
+        
+        unique case (State)
+            Wait :
+                if (START)
+                    Next_state = Init;
+            Init :
+                if (Init_done)
+                    Next_state = Moving;
+            Moving :
+                if (Moving_done)
+                    Next_state = Update;
+            Update :
+                if (Update_done)
+                    Next_state = Done;
+            Done :
+                if (!START)
+                    Next_state = Wait;
+            default : ;
+        endcase
+        
+        case (State)
+            Wait : ;
+            Init : Init_start = 1'b1;
+            Moving : Moving_start = 1'b1;
+            Update : Update_start = 1'b1;
+            Done : DONE = 1'b1;
+            default : ;
+        endcase
+    end
+
+endmodule

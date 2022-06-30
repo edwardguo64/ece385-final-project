@@ -1,0 +1,18 @@
+Fitter Status : Successful - Tue Dec 15 17:51:19 2020
+Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+Revision Name : tetris
+Top-level Entity Name : tetris
+Family : MAX 10
+Device : 10M50DAF484C7G
+Timing Models : Final
+Total logic elements : 45,836 / 49,760 ( 92 % )
+    Total combinational functions : 45,058 / 49,760 ( 91 % )
+    Dedicated logic registers : 4,153 / 49,760 ( 8 % )
+Total registers : 4222
+Total pins : 125 / 360 ( 35 % )
+Total virtual pins : 0
+Total memory bits : 11,392 / 1,677,312 ( < 1 % )
+Embedded Multiplier 9-bit elements : 0 / 288 ( 0 % )
+Total PLLs : 1 / 4 ( 25 % )
+UFM blocks : 0 / 1 ( 0 % )
+ADC blocks : 0 / 2 ( 0 % )

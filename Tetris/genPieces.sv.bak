@@ -1,0 +1,16 @@
+module genPieces(
+					input Reset, clk,
+					input [31:0] REG[19:0],
+					output [3:0] rot, tp
+					);
+	
+	module Random(
+				input logic Clk,
+				input logic reset_n,
+				output reg [3:0] T,
+				output reg [1:0] R
+				);
+	Random rand(.clk = clk
+					
+					
+endmodule
