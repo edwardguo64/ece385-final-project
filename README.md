@@ -4,6 +4,8 @@ Final project for ECE 385: Digital Systems Laboratory by Edward Guo and Minho Le
 
 Please cite this github repository if you decide to use this as reference for UIUC's ECE 385 final project. Not doing so would violate academic integrity.
 
+All the SystemVerilog modules are included in the Tetris folder, and the C files are included in ./Tetris/software/tetris_app.
+
 ## Table of Contents
 
 1. [Introduction](#introduction)
